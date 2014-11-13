@@ -1,0 +1,4 @@
+COCOAnnotate
+============
+
+CSA kifu annotator
