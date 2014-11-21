@@ -72,6 +72,7 @@ def sujidan(str):
     global dou
     koma = KOMASTR.get(str[4:],r'ÅH')
     if str[0:2] == '00':
+        dou = str[2:4]
         return SUJISTR[int(str[2])] + DANSTR[int(str[3])] + koma + r'ë≈'
     else:
         if str[2:4] == dou:
